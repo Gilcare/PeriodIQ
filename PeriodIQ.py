@@ -608,4 +608,58 @@ def landing_page():
                 return df.to_csv(index=True).encode('utf-8')
             token_csv = convert_df(token_df)
             upload_token = upload_to_github(FILE_NAME_3,token_csv,repo,FOLDER_NAME)
-            get_token = get_c
+            get_token = get_csv_content_from_github(repo, FOLDER_NAME, FILE_NAME_3)
+            df_token = pd.read_csv(io.StringIO(get_token))
+            generated_token = df_token[(df_token["ID"] == user_id) & (df_token["sets"])]
+            user_token = generated_token.iloc[-1]["sets"]
+            Qtoken = user_token
+            st.markdown(user_token)
+
+            st.success("Token generated")
+        st.divider()
+        st.caption(":octagonal_sign: _Share period metrics with your partner by generating a QAuth Token to enable them access_")
+        st.write("")
+        st.caption(":warning: Remember to copy and save the generated token, as leaving this page will make the token no longer visible")
+
+
+    elif app == "🌏 About":
+        st.image("6.png")
+        st.caption ("_❤️AI-Driven Healthcare, Accessible and Affordable for Every lady_")
+        st.write("Every lady deserves access to quality healthcare, no matter where she lives. We're on a mission to make affordable, world-class care available to women & girls across Africa and beyond. It's time to prioritize women's health, globally.")
+        #st.image("purple.png", caption = "Empowering Women's Health with AI...Embark on a journey of informed decisions, better health, and well-being. Your health matters, and Thera is here to support you every step of the way.")
+
+        st.image("free-blank-map-asia_53876-145019.png")
+        st.caption ("_...powered by💜 Gilcare_")
+        st.write("Together, we can make women's health a priority, and ensure that every woman is empowered with the knowledge and resources she needs to thrive")
+
+        st.markdown("""
+        ---
+        🔗 We would love to hear your thoughts (https://forms.gle/hWTy3pxmV7cAtWzYA)
+        """)
+
+
+    
+    elif app == "❌ Log Out":
+        st.session_state.logged_in = False
+        st.rerun()
+
+def main():
+    if 'logged_in' not in st.session_state:
+        st.session_state.logged_in = False
+    if 'need_to_enter_symptoms' not in st.session_state:
+        st.session_state.need_to_enter_symptoms = False
+
+    if not st.session_state.logged_in:
+        
+        #st.markdown("<h1 style='text-align: center; color: #E607B5;'>PeriodIQ</h1>", unsafe_allow_html=True)
+        st.image("6.png")
+        st.write("")
+        login_signup_page()
+        
+    elif st.session_state.need_to_enter_symptoms:
+        top_symptoms()
+    else:
+        landing_page()
+
+if __name__ == "__main__":
+    main()
