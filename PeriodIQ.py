@@ -22,7 +22,7 @@ import os
 GITHUB_TOKEN = st.secrets.database.GITHUB_TOKEN
 
 
-REPO_NAME = 'HolmanGreat/PeriodIQ'
+REPO_NAME = 'Gilcare/PeriodIQ'
 FOLDER_NAME = 'Polka'
 FILE_NAME = 'symptoms.csv'
 FILE_NAME_2 = 'pharma.csv'
