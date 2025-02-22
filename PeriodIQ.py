@@ -15,7 +15,7 @@ from pymongo import MongoClient
 
 from langchain_huggingface import HuggingFaceEndpoint
 #from langchain import PromptTemplate, LLMChain
-from langchain_core.chains import LLMChain
+from langchain.chains import LLMChain
 from langchain_core.prompts import PromptTemplate
 import os
 
