@@ -63,6 +63,6 @@ For questions, suggestions, or collaboration, feel free to reach out:
 ---
 
 <p align="center">
-  <b>With 💜 4rm Gilcare...</b>
+  <b>...Not just care-Gilcare💜</b>
 </p>
 
