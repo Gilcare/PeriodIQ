@@ -63,6 +63,5 @@ For questions, suggestions, or collaboration, feel free to reach out:
 ---
 
 <p align="center">
-  
-**Not just care-Gilcare💜**
+  <b>Not just care-Gilcare💜</b>
 </p>
