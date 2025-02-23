@@ -57,12 +57,12 @@ Many girls and women across Africa struggle with menstrual health challenges due
 
 ## 📧 Contact
 For questions, suggestions, or collaboration, feel free to reach out:
-- **Twitter:** [@Gilcare](https://x.com/Gilcare_?t=TBD_6_Y_s2yPBrjH5cP14A&s=08)
-- **Website:** [www.cueapp.com](https://www.cueapp.com)
+- **Twitter:** [@Gilcare_](https://x.com/Gilcare_?t=TBD_6_Y_s2yPBrjH5cP14A&s=08)
+- **Website:** [PeriodIQ](https://periodiq.streamlit.app/)
 
 ---
 
 <p align="center">
-🌸 *... Built with 💜 Gilcare* 🌸
+  <b>...Built with 💜 Gilcare</b>
 </p>
 
