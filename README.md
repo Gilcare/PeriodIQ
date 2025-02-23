@@ -34,7 +34,7 @@
 ## 🎯 Future Plans
 
 Our team is dedicated to expanding **PeriodIQ** based on user feedback. Planned updates include:
-- **📱 Support for Feature Phones:** Making Cue accessible to users with basic mobile devices.
+- **📱 Support for Feature Phones:** Making **PeriodIQ** accessible to users with basic mobile devices.
 - **📌 Additional Features:** More tracking options and integrations based on community suggestions.
 
 ## 🌍 Why PeriodIQ Matters
