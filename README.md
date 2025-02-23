@@ -1,4 +1,4 @@
-# PeriodIQ
+# PeriodIQ ✨: Smarter Menstrual Health Tracking
 
 
 [![LangChain](https://img.shields.io/badge/LangChain-00A3FF?style=for-the-badge&logo=LangChain&logoColor=white)](https://www.langchain.com/)
@@ -15,11 +15,6 @@
 
 
 
-# PeriodIQ ✨: Smarter Menstrual Health Tracking
-
-<p align="center">
-  <img src="6.png" alt="PeriodIQ" width="200">
-</p>
 
 ## 🚀 About PeriodIQ 
 
