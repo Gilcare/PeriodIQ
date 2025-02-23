@@ -1,6 +1,11 @@
-,ID,Time,Symptoms,Severity,Start_Date,End_Date
+Unnamed: 0,ID,Time,Symptoms,Severity,Start_Date,End_Date
 Fatigue,Aurora99,16:16:54,Fatigue,3,2025-02-01,2025-02-05
  Nausea,Aurora99,16:16:54, Nausea,0,2025-02-01,2025-02-05
  Vomiting,Aurora99,16:16:54, Vomiting,0,2025-02-01,2025-02-05
  Back ache,Aurora99,16:16:54, Back ache,1,2025-02-01,2025-02-05
  Loss of appetite,Aurora99,16:16:54, Loss of appetite,3,2025-02-01,2025-02-05
+Fatigue,Aurora99,16:16:57,Fatigue,3,2025-02-01,2025-02-05
+ Nausea,Aurora99,16:16:57, Nausea,0,2025-02-01,2025-02-05
+ Vomiting,Aurora99,16:16:57, Vomiting,0,2025-02-01,2025-02-05
+ Back ache,Aurora99,16:16:57, Back ache,1,2025-02-01,2025-02-05
+ Loss of appetite,Aurora99,16:16:57, Loss of appetite,3,2025-02-01,2025-02-05
