@@ -14,10 +14,10 @@
 </p>
 
 <p align="center">
-🌸 Smarter Menstrual Health Tracking 🌸
+🌸 PeriodIQ - Empowering Women Through Smarter Menstrual Health 🌸
 </p>
 
-
+# Smarter Menstrual Health Tracking
 
 ## 🚀 About PeriodIQ 
 
@@ -53,18 +53,16 @@ Many girls and women across Africa struggle with menstrual health challenges due
 </p>
 
 
-## 🤝 Contributing
-We welcome contributions! Please fork this repository and submit a pull request with improvements or bug fixes.
+
 
 ## 📧 Contact
 For questions, suggestions, or collaboration, feel free to reach out:
-- **Email:** support@cueapp.com
-- **Twitter:** [@CueApp](https://twitter.com/CueApp)
+- **Twitter:** [@Gilcare](https://x.com/Gilcare_?t=TBD_6_Y_s2yPBrjH5cP14A&s=08)
 - **Website:** [www.cueapp.com](https://www.cueapp.com)
 
 ---
 
 <p align="center">
-🌸 *PeriodIQ - Empowering Women Through Smarter Menstrual Health* 🌸
+🌸 *... Built with 💜 Gilcare* 🌸
 </p>
 
